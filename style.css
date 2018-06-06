@@ -3,11 +3,93 @@
     height:700px;
 }
 
-#circle {
+/* #circle {
 	width: 50px;
 	height: 50px;
 	background: red;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
+} */
+
+.dice {
+    
+    right: 0;
+    width: 75px;
+    height: 75px;
+    /* background: url(../chakaara/images/dice.png); */
 }
+table{
+    margin-left: 61px;
+    margin-top: 69px;
+
+}
+.table {
+        /* width: 530px; */
+        height: 830px;
+        background: url(../chakaara/images/Board2.png) no-repeat;
+        background-size: cover;
+        /* padding: 40px;   */
+        /* margin-left: 50px;
+        margin-top: 25px; */
+       
+        
+      }
+.table td { 
+    /* border: solid px #000; */
+    padding-bottom: 102px;
+    padding-right: 97px;
+    padding-left: 23px;
+    padding-top: 14px;
+    border: 0px;
+}   
+
+.reset{
+    margin-top: 20px;
+}
+
+
+.container > .table > table {
+    width: 450px;
+    height: 450px;
+}
+
+.buttons-green > .btn-green{
+    color: white;
+    font-weight: bold;
+    background: green;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .buttons-yellow > .btn-yellow {
+    color: white;
+    font-weight: bold;
+    background:gold;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+.right-side >.right-side-top {
+  float:right;
+  width: 33.33%; 
+  padding: 5px;
+  clear:both;
+
+}
+.left-side {
+    float:left;
+}
+
+.right-side{
+    float:left;
+}
+
+
+

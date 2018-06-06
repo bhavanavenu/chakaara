@@ -2,18 +2,100 @@
 <html lang="en">
 <head>
   <title>Chakaara</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   </head>
 <body>
 
 
-<div>
-    <img class="board" src="images/board.png">
-    <div id="circle"></div>
-</div>
+<div class= "row">
+    <div class= "col-xl-6 table">
+        <div class="row">
+                <table id ="board">
+                <tr > 
+                  <td > 1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                  <td>14</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>21</td>
+                  <td>22</td>
+                  <td>23</td>
+                  <td>24</td>
+                  <td>25</td>
+                </tr>
+              </table>
+            </div>
+            <div class="row justify-content-center">
+            <input class="reset" type ="button" value="Reset Game">
+          </div>
+            </div>
+            
 
-
-
+         <div class = "col-xl-2">
+           
+        <h3>Player-1</h3>
+    <div class="buttons-green">
+            <button class="btn-green">1</button>
+            <button class="btn-green">2</button>
+            <button class="btn-green">3</button>
+            <button class="btn-green">4</button>
+        </div>
+    <h3>Player-2</h3>
+    <div class="buttons-yellow">
+            <button class="btn-yellow">1</button>
+            <button class="btn-yellow">2</button>
+            <button class="btn-yellow">3</button>
+            <button class="btn-yellow">4</button>
+            </div>
+    </div>
+        <div id ="dice-div" class="col-xl-1">
+            <img id="4" class="dice" src="images/dice.png" alt="dice-img">
+            <img id="1"class="dice" src="images/dice1.png" alt="dice-img">
+            <img id="2"class="dice" src="images/dice2.png" alt="dice-img">
+            <img id="3"class="dice" src="images/dice3.png" alt="dice-img">
+            <img id="5"class="dice" src="images/dice5.png" alt="dice-img">
+            <img id="6"class="dice" src="images/dice6.png" alt="dice-img">
+          
+            <input type="button" id="dice" value="Roll dice">
+            </div>
     
+            <div class = "col-xl-2">
+                    <h2>Score Board</h2>
+                    <div class="text">Number of coins moved to center:</div>
+                    <div class="P1">P1:</div>
+                    <div class="P2">P2:</div>
+                </div>
+    
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+   <script src="index.js"></script>
 </body>
 </html>
+
