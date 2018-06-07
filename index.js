@@ -251,11 +251,11 @@ console.log(playerOne.chance, playerOne.path);
 // playerTwo.play();
 // }
 
-var scoreBoard = function (){
+// var scoreBoard = function (){
 
-}
+// }
 
-function updateCoinPosition() {}
+// function updateCoinPosition() {}
 
 // var reset = function (){
 
@@ -340,4 +340,7 @@ $('#dice').click(function() {
 // });
 
 }
-
+function scoreBoard() {
+    $('#pairs_clicked').text(memoryGame.pairsClicked);
+    $('#pairs_guessed').text(memoryGame.pairsGuessed);
+  }
