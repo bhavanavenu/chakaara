@@ -1,94 +1,185 @@
-.board{
+.board {
     width: 700px;
-    height:700px;
+    height: 700px;
 }
 
-/* #circle {
-	width: 50px;
-	height: 50px;
-	background: red;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-} */
+.boxgreen {
+    background: #4CAF50;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+}
+
+.boxyellow {
+    background: #f1e203;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+}
+
+.boxblue {
+    background: #0446fc;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+}
+
+.boxred {
+    background: #f81212;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+}
+
+.dotgreen {
+    height: 25px;
+    width: 25px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.dotyellow {
+    height: 25px;
+    width: 25px;
+    background-color: #f1e203;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.dotred {
+    height: 25px;
+    width: 25px;
+    background-color: #f81212;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.dotblue {
+    height: 25px;
+    width: 25px;
+    background-color: #0446fc;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
 
 .dice {
-    
     right: 0;
     width: 75px;
     height: 75px;
     /* background: url(../chakaara/images/dice.png); */
 }
-table{
-    margin-left: 61px;
-    margin-top: 69px;
 
-}
-.table {
-        /* width: 530px; */
-        height: 830px;
-        background: url(../chakaara/images/Board2.png) no-repeat;
-        background-size: cover;
-        /* padding: 40px;   */
-        /* margin-left: 50px;
-        margin-top: 25px; */
-       
-        
-      }
-.table td { 
-    /* border: solid px #000; */
-    padding-bottom: 102px;
-    padding-right: 97px;
-    padding-left: 23px;
-    padding-top: 14px;
-    border: 0px;
-}   
-
-.reset{
-    margin-top: 20px;
-}
-
-
-.container > .table > table {
-    width: 450px;
-    height: 450px;
-}
-
-.buttons-green > .btn-green{
+.coin1 {
+    background-color: #4CAF50;
+    border:none;
     color: white;
-    font-weight: bold;
-    background: green;
-    width: 50px;
-    height: 50px;
-    outline: none;
-    border-radius: 50%;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
     cursor: pointer;
-  }
+    box-shadow: 0 9px #999;
+    font-family: "trebuchet ms", arial, sans-serif;
+    font-style: italic;
+ 
+}
 
-  .buttons-yellow > .btn-yellow {
+.coin2 {
+    background-color: #f1e203;
+    border: none;
     color: white;
-    font-weight: bold;
-    background:gold;
-    width: 50px;
-    height: 50px;
-    outline: none;
-    border-radius: 50%;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     cursor: pointer;
-  }
+    box-shadow: 0 9px #999;
+    font-family: "trebuchet ms", arial, sans-serif;
+    font-style: italic;
+}
 
-.right-side >.right-side-top {
-  float:right;
-  width: 33.33%; 
-  padding: 5px;
-  clear:both;
+.coin3 {
+    background-color: #f81212;
+    border: none;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    font-family: "trebuchet ms", arial, sans-serif;
+    font-style: italic;
+}
+
+.coin4 {
+    background-color: #0446fc;
+    border: none;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    font-family: "trebuchet ms", arial, sans-serif;
+    font-style: italic;
+}
+.col-xl-1 {
+    float :right;
+
+   
+}
+.col-xl-2 {
+    float :right;
 
 }
-.left-side {
+
+
+.col-xl-6 {
     float:left;
 }
 
-.right-side{
-    float:left;
+.btn{
+    
+    background-color: black;
+    color: white;
+    font-family: "trebuchet ms", arial, sans-serif;
+    border: 1px solid black;
+    font-style: italic;
+    
 }
 
+.btn-dice {
+    background-color: black;
+    color: white;
+    font-family: "trebuchet ms", arial, sans-serif;
+    border: 1px solid black;
+    font-style: italic;
+}
 
+.score {
+    font-family: "trebuchet ms", arial, sans-serif;
+    font-style: italic;
+}
